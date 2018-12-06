@@ -2,4 +2,5 @@
 @interface OSCD : NSObject
 +(void)load;
 +(BOOL)isMirrored;
++(BOOL)isAVAudioSessionCaptured;
 @end
